@@ -1,0 +1,400 @@
+<mxfile host="app.diagrams.net" modified="2020-11-16T20:17:50.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="LAjNZDHTm1s7mMi9mzXc" version="13.9.8" type="github" pages="5">
+  <diagram id="l0sglYtmobcBWLhWci2K" name="Bruker som felles">
+    <mxGraphModel dx="1186" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="bWBQJ5MUBi7slJZ5jT_A-0" />
+        <mxCell id="bWBQJ5MUBi7slJZ5jT_A-1" parent="bWBQJ5MUBi7slJZ5jT_A-0" />
+        <mxCell id="4QKKzsmaVTvt52J6z-Et-0" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Bruker&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="bWBQJ5MUBi7slJZ5jT_A-1" vertex="1">
+          <mxGeometry x="112" y="462" width="57" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="XavN1j7uJjIhjr3uWDtA-0" value="Logge inn" style="ellipse;whiteSpace=wrap;html=1;" parent="bWBQJ5MUBi7slJZ5jT_A-1" vertex="1">
+          <mxGeometry x="274" y="304" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XavN1j7uJjIhjr3uWDtA-1" value="Redigere brukerinformasjon" style="ellipse;whiteSpace=wrap;html=1;" parent="bWBQJ5MUBi7slJZ5jT_A-1" vertex="1">
+          <mxGeometry x="272" y="401" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ddyAQtETq-5gu5hAP4_S-0" value="" style="endArrow=none;html=1;" parent="bWBQJ5MUBi7slJZ5jT_A-1" source="4QKKzsmaVTvt52J6z-Et-0" target="XavN1j7uJjIhjr3uWDtA-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="618" as="sourcePoint" />
+            <mxPoint x="437" y="568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ddyAQtETq-5gu5hAP4_S-1" value="" style="endArrow=none;html=1;" parent="bWBQJ5MUBi7slJZ5jT_A-1" source="4QKKzsmaVTvt52J6z-Et-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="221" y="486" as="sourcePoint" />
+            <mxPoint x="271" y="436" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZcDjnvdl5nGW8XyRNGF-0" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="bWBQJ5MUBi7slJZ5jT_A-1" vertex="1">
+          <mxGeometry x="78" y="441.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j61p6dMdMDQgXEyosJvS-0" value="Se liste med parkeringsplasser til utleie" style="ellipse;whiteSpace=wrap;html=1;" parent="bWBQJ5MUBi7slJZ5jT_A-1" vertex="1">
+          <mxGeometry x="272" y="498" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j61p6dMdMDQgXEyosJvS-1" value="" style="endArrow=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="bWBQJ5MUBi7slJZ5jT_A-1" source="j61p6dMdMDQgXEyosJvS-0" target="4QKKzsmaVTvt52J6z-Et-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="613" as="sourcePoint" />
+            <mxPoint x="437" y="563" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j61p6dMdMDQgXEyosJvS-2" value="Se ordre" style="ellipse;whiteSpace=wrap;html=1;" parent="bWBQJ5MUBi7slJZ5jT_A-1" vertex="1">
+          <mxGeometry x="272" y="591" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j61p6dMdMDQgXEyosJvS-3" value="" style="endArrow=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.719;entryY=1.105;entryDx=0;entryDy=0;entryPerimeter=0;" parent="bWBQJ5MUBi7slJZ5jT_A-1" source="j61p6dMdMDQgXEyosJvS-2" target="4QKKzsmaVTvt52J6z-Et-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="613" as="sourcePoint" />
+            <mxPoint x="187" y="503" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-rg06UK1EXO3ZJdCQIBw-2" value="Lage ny bruker" style="ellipse;whiteSpace=wrap;html=1;" parent="bWBQJ5MUBi7slJZ5jT_A-1" vertex="1">
+          <mxGeometry x="274" y="207" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-rg06UK1EXO3ZJdCQIBw-3" value="" style="endArrow=none;html=1;" parent="bWBQJ5MUBi7slJZ5jT_A-1" source="4QKKzsmaVTvt52J6z-Et-0" target="-rg06UK1EXO3ZJdCQIBw-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="421" as="sourcePoint" />
+            <mxPoint x="437" y="371" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MBc3Pe6Om7mmEMshGUJ6" name="Bruker som utleier">
+    <mxGraphModel dx="1186" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="cSV4yzKKtlHWM_ET_0IR-0" />
+        <mxCell id="cSV4yzKKtlHWM_ET_0IR-1" parent="cSV4yzKKtlHWM_ET_0IR-0" />
+        <mxCell id="s08uSbBkGI-qRIGiFjv8-1" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Bruker som utleier&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cSV4yzKKtlHWM_ET_0IR-1" vertex="1">
+          <mxGeometry x="112" y="541" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s08uSbBkGI-qRIGiFjv8-2" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="cSV4yzKKtlHWM_ET_0IR-1" vertex="1">
+          <mxGeometry x="72" y="525" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s08uSbBkGI-qRIGiFjv8-6" value="Legge til parkeringsplasser" style="ellipse;whiteSpace=wrap;html=1;" parent="cSV4yzKKtlHWM_ET_0IR-1" vertex="1">
+          <mxGeometry x="244" y="332" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s08uSbBkGI-qRIGiFjv8-7" value="Fjerne sine parkeringsplasser" style="ellipse;whiteSpace=wrap;html=1;" parent="cSV4yzKKtlHWM_ET_0IR-1" vertex="1">
+          <mxGeometry x="246" y="423" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s08uSbBkGI-qRIGiFjv8-8" value="Motta betaling" style="ellipse;whiteSpace=wrap;html=1;" parent="cSV4yzKKtlHWM_ET_0IR-1" vertex="1">
+          <mxGeometry x="244" y="511" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s08uSbBkGI-qRIGiFjv8-10" value="Redigere &lt;br&gt;informasjon til sine parkeringsplasser" style="ellipse;whiteSpace=wrap;html=1;" parent="cSV4yzKKtlHWM_ET_0IR-1" vertex="1">
+          <mxGeometry x="246" y="599" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s08uSbBkGI-qRIGiFjv8-11" value="Se status for sine parkeringsplasser" style="ellipse;whiteSpace=wrap;html=1;" parent="cSV4yzKKtlHWM_ET_0IR-1" vertex="1">
+          <mxGeometry x="246" y="694" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hk7Fy9aBEC5GN8HtvXVO-0" value="" style="endArrow=none;html=1;entryX=0.075;entryY=0.763;entryDx=0;entryDy=0;entryPerimeter=0;" parent="cSV4yzKKtlHWM_ET_0IR-1" target="s08uSbBkGI-qRIGiFjv8-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="146" y="522" as="sourcePoint" />
+            <mxPoint x="437" y="522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hk7Fy9aBEC5GN8HtvXVO-1" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="cSV4yzKKtlHWM_ET_0IR-1" source="s08uSbBkGI-qRIGiFjv8-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="572" as="sourcePoint" />
+            <mxPoint x="158" y="529" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hk7Fy9aBEC5GN8HtvXVO-2" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="cSV4yzKKtlHWM_ET_0IR-1" source="s08uSbBkGI-qRIGiFjv8-1" target="s08uSbBkGI-qRIGiFjv8-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="572" as="sourcePoint" />
+            <mxPoint x="437" y="522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hk7Fy9aBEC5GN8HtvXVO-3" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="cSV4yzKKtlHWM_ET_0IR-1" source="s08uSbBkGI-qRIGiFjv8-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="572" as="sourcePoint" />
+            <mxPoint x="156" y="571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hk7Fy9aBEC5GN8HtvXVO-4" value="" style="endArrow=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="cSV4yzKKtlHWM_ET_0IR-1" source="s08uSbBkGI-qRIGiFjv8-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="572" as="sourcePoint" />
+            <mxPoint x="142" y="581" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5MzTepTSqU6PvfIB5XCa" name="Bruker som leier">
+    <mxGraphModel dx="1186" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DSZaHpxghq_dV-Ris_X_-3" value="Søke opp og finne parkeringsplasser" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="247" y="313" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DSZaHpxghq_dV-Ris_X_-5" value="Betale for parkeringsplass" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="251" y="494" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DSZaHpxghq_dV-Ris_X_-6" value="Fjerne reservering av parkeringsplass" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="251" y="582" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DSZaHpxghq_dV-Ris_X_-9" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Bruker som leier&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="84" y="480" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DSZaHpxghq_dV-Ris_X_-10" value="Redigere reservasjon av parkeringsplass" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="247" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DSZaHpxghq_dV-Ris_X_-12" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="DSZaHpxghq_dV-Ris_X_-5" target="DSZaHpxghq_dV-Ris_X_-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="606" y="514" as="sourcePoint" />
+            <mxPoint x="656" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DSZaHpxghq_dV-Ris_X_-13" value="" style="endArrow=none;html=1;" parent="1" target="DSZaHpxghq_dV-Ris_X_-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="466" as="sourcePoint" />
+            <mxPoint x="656" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DSZaHpxghq_dV-Ris_X_-15" value="" style="endArrow=none;html=1;" parent="1" source="DSZaHpxghq_dV-Ris_X_-9" target="DSZaHpxghq_dV-Ris_X_-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="606" y="514" as="sourcePoint" />
+            <mxPoint x="656" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DSZaHpxghq_dV-Ris_X_-19" value="" style="endArrow=none;html=1;entryX=0.067;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="DSZaHpxghq_dV-Ris_X_-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="122" y="514" as="sourcePoint" />
+            <mxPoint x="269" y="633" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DSZaHpxghq_dV-Ris_X_-21" value="Reservere parkeringsplass" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="247" y="405" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pIWp-jM05LFPsdIwgD__-1" value="" style="endArrow=none;html=1;" parent="1" target="DSZaHpxghq_dV-Ris_X_-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="480" as="sourcePoint" />
+            <mxPoint x="656" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmaZfEJIuCnj1RyBKqJB-1" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="47" y="460" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="A8oJohavZzirciSPKZmJ" name="Admin">
+    <mxGraphModel dx="1395" dy="936" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ZJjtWqbou_2QdbEYVKGs-0" />
+        <mxCell id="ZJjtWqbou_2QdbEYVKGs-1" parent="ZJjtWqbou_2QdbEYVKGs-0" />
+        <mxCell id="ZJjtWqbou_2QdbEYVKGs-2" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Admin&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ZJjtWqbou_2QdbEYVKGs-1" vertex="1">
+          <mxGeometry x="110" y="390" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJjtWqbou_2QdbEYVKGs-7" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="ZJjtWqbou_2QdbEYVKGs-1" vertex="1">
+          <mxGeometry x="66" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJjtWqbou_2QdbEYVKGs-9" value="Fjerne parkeringsplasser til utleie" style="ellipse;whiteSpace=wrap;html=1;" parent="ZJjtWqbou_2QdbEYVKGs-1" vertex="1">
+          <mxGeometry x="291" y="397" width="132" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJjtWqbou_2QdbEYVKGs-11" value="Fjerne ordre&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="ZJjtWqbou_2QdbEYVKGs-1" vertex="1">
+          <mxGeometry x="482" y="585" width="126" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="Lftm_mqQb0vQjWd8UA83-0" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Likt som bruker&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="176" y="231" width="106" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="Lftm_mqQb0vQjWd8UA83-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Moderere&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="184" y="597" width="70" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="Lftm_mqQb0vQjWd8UA83-2" value="" style="endArrow=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.139;entryY=-0.111;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ZJjtWqbou_2QdbEYVKGs-1" source="ZJjtWqbou_2QdbEYVKGs-2" target="Lftm_mqQb0vQjWd8UA83-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="432" as="sourcePoint" />
+            <mxPoint x="437" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lftm_mqQb0vQjWd8UA83-3" value="" style="endArrow=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="ZJjtWqbou_2QdbEYVKGs-1" source="ZJjtWqbou_2QdbEYVKGs-2" target="Lftm_mqQb0vQjWd8UA83-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="432" as="sourcePoint" />
+            <mxPoint x="184" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RnhVJL3jvsrO5IjkyEuz-0" value="Søke opp og finne parkeringsplasser" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="420" y="212" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jTskl8P0eDTYFOIsEfD-0" value="Reservere parkeringsplass" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="547" y="126" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CgE1HcX4BOfykWBSoy7B-0" value="Betale for parkeringsplass" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="547" y="43" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BjwZ_rSNlTGN2-qf-qpe-0" value="Fjerne reservering av parkeringsplass" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="547" y="212" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OeWx1NSsYzI4UTzKrCJV-0" value="Redigere reservasjon av parkeringsplass" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="420" y="43" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AWCTppKtPr-FAO8l5LP2-0" value="Legge til parkeringsplasser" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="294" y="126" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XAgPIvo6talCet7Qo0Hu-0" value="Fjerne sine parkeringsplasser" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="420" y="301" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-Nr7zFgf32MhV-2Wi-h7-0" value="Motta betaling" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="420" y="126" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nVa44mbz4bs1uBSdWpjl-0" value="Se status for sine parkeringsplasser" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="667" y="83" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z2SLjakgzgBm1iKFXx-Q-0" value="Redigere &lt;br&gt;informasjon til sine parkeringsplasser" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="294" y="43" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mWH40vhH4av3JKd8JXIM-0" value="Logge inn" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="297" y="301" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zX3W5cKwe3hOznsRkvQ2-0" value="Redigere brukerinformasjon" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="547" y="301" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dDzeBbwaUoSC4RngeLsQ-0" value="Se liste med parkeringsplasser til utleie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="667" y="258" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L9yBeXQkQ_FI9Qk6I2_r-0" value="Se ordre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="297" y="212" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L9yBeXQkQ_FI9Qk6I2_r-1" value="Fjerne bruker" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="282" y="877" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L9yBeXQkQ_FI9Qk6I2_r-3" value="" style="endArrow=none;html=1;" edge="1" parent="ZJjtWqbou_2QdbEYVKGs-1" source="Lftm_mqQb0vQjWd8UA83-1" target="ZJjtWqbou_2QdbEYVKGs-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="298" y="463" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9yBeXQkQ_FI9Qk6I2_r-4" value="" style="endArrow=none;html=1;" edge="1" parent="ZJjtWqbou_2QdbEYVKGs-1" source="Lftm_mqQb0vQjWd8UA83-1" target="ZJjtWqbou_2QdbEYVKGs-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9yBeXQkQ_FI9Qk6I2_r-5" value="" style="endArrow=none;html=1;exitX=0.29;exitY=0.058;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ZJjtWqbou_2QdbEYVKGs-1" source="L9yBeXQkQ_FI9Qk6I2_r-1" target="Lftm_mqQb0vQjWd8UA83-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9yBeXQkQ_FI9Qk6I2_r-6" value="Legge til parkeringsplasser til utleie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="417" y="427" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L9yBeXQkQ_FI9Qk6I2_r-7" value="Endre på parkeringsplasser til utleie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="471" y="502" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L9yBeXQkQ_FI9Qk6I2_r-8" value="Legge til bruker" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="376" y="825" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L9yBeXQkQ_FI9Qk6I2_r-9" value="Endre på bruker" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="430" y="752" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L9yBeXQkQ_FI9Qk6I2_r-10" value="Endre ordre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ZJjtWqbou_2QdbEYVKGs-1">
+          <mxGeometry x="479" y="672" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L9yBeXQkQ_FI9Qk6I2_r-11" value="" style="endArrow=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ZJjtWqbou_2QdbEYVKGs-1" source="Lftm_mqQb0vQjWd8UA83-1" target="L9yBeXQkQ_FI9Qk6I2_r-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="702" as="sourcePoint" />
+            <mxPoint x="450" y="652" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9yBeXQkQ_FI9Qk6I2_r-12" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ZJjtWqbou_2QdbEYVKGs-1" source="Lftm_mqQb0vQjWd8UA83-1" target="L9yBeXQkQ_FI9Qk6I2_r-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="702" as="sourcePoint" />
+            <mxPoint x="450" y="652" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9yBeXQkQ_FI9Qk6I2_r-13" value="" style="endArrow=none;html=1;entryX=0.018;entryY=0.344;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ZJjtWqbou_2QdbEYVKGs-1" source="Lftm_mqQb0vQjWd8UA83-1" target="L9yBeXQkQ_FI9Qk6I2_r-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="702" as="sourcePoint" />
+            <mxPoint x="450" y="652" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9yBeXQkQ_FI9Qk6I2_r-14" value="" style="endArrow=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="ZJjtWqbou_2QdbEYVKGs-1" source="L9yBeXQkQ_FI9Qk6I2_r-9" target="Lftm_mqQb0vQjWd8UA83-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="702" as="sourcePoint" />
+            <mxPoint x="450" y="652" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9yBeXQkQ_FI9Qk6I2_r-15" value="" style="endArrow=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.626;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ZJjtWqbou_2QdbEYVKGs-1" source="L9yBeXQkQ_FI9Qk6I2_r-8" target="Lftm_mqQb0vQjWd8UA83-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="702" as="sourcePoint" />
+            <mxPoint x="450" y="652" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0uiqUhiCJVZlx1m0nQSX" name="Sekvensdiagram - Register parkeringsplass">
+    <mxGraphModel dx="988" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ZFmFPOknG-FT4zD07XFj-0" />
+        <mxCell id="ZFmFPOknG-FT4zD07XFj-1" parent="ZFmFPOknG-FT4zD07XFj-0" />
+        <mxCell id="ZFmFPOknG-FT4zD07XFj-2" value="Bruker" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="ZFmFPOknG-FT4zD07XFj-1">
+          <mxGeometry x="76" y="63" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFmFPOknG-FT4zD07XFj-6" value="Hovedsiden" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="ZFmFPOknG-FT4zD07XFj-1">
+          <mxGeometry x="264" y="63" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFmFPOknG-FT4zD07XFj-10" value="callback" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="ZFmFPOknG-FT4zD07XFj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="626" as="sourcePoint" />
+            <mxPoint x="380" y="626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFmFPOknG-FT4zD07XFj-19" value="Repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="ZFmFPOknG-FT4zD07XFj-1">
+          <mxGeometry x="434" y="63" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFmFPOknG-FT4zD07XFj-24" value="dispatch" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="ZFmFPOknG-FT4zD07XFj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="297" y="570" as="sourcePoint" />
+            <mxPoint x="467" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFmFPOknG-FT4zD07XFj-25" value="Send skjema()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.522;exitY=0.299;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ZFmFPOknG-FT4zD07XFj-1" source="ZFmFPOknG-FT4zD07XFj-6" target="ZFmFPOknG-FT4zD07XFj-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125.40000000000009" y="162.89999999999998" as="sourcePoint" />
+            <mxPoint x="316.9999999999998" y="162.89999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFmFPOknG-FT4zD07XFj-26" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="ZFmFPOknG-FT4zD07XFj-1">
+          <mxGeometry x="591" y="63" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFmFPOknG-FT4zD07XFj-27" value="Add parkeringsplass til db()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.525;exitY=0.344;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ZFmFPOknG-FT4zD07XFj-1" source="ZFmFPOknG-FT4zD07XFj-19" target="ZFmFPOknG-FT4zD07XFj-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="316.20000000000005" y="180.29999999999995" as="sourcePoint" />
+            <mxPoint x="501.5000000000002" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFmFPOknG-FT4zD07XFj-28" value="Bekreft" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.51;exitY=0.558;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ZFmFPOknG-FT4zD07XFj-1" source="ZFmFPOknG-FT4zD07XFj-26" target="ZFmFPOknG-FT4zD07XFj-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="617" y="272" as="sourcePoint" />
+            <mxPoint x="452" y="272" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFmFPOknG-FT4zD07XFj-29" value="Send bekreftmelding()" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="ZFmFPOknG-FT4zD07XFj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="484" y="249" as="sourcePoint" />
+            <mxPoint x="319" y="249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFmFPOknG-FT4zD07XFj-38" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="ZFmFPOknG-FT4zD07XFj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="132" y="680.9999999999998" as="targetPoint" />
+            <mxPoint x="302" y="680.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFmFPOknG-FT4zD07XFj-41" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="ZFmFPOknG-FT4zD07XFj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="632" as="targetPoint" />
+            <mxPoint x="154" y="632" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFmFPOknG-FT4zD07XFj-45" value="Fyller inn skjema med informasjon" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.51;exitY=0.269;shadow=0;strokeWidth=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.513;entryY=0.266;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ZFmFPOknG-FT4zD07XFj-1" source="ZFmFPOknG-FT4zD07XFj-2" target="ZFmFPOknG-FT4zD07XFj-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="307" y="212.57999999999998" as="targetPoint" />
+            <mxPoint x="142" y="212.57999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
