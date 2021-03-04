@@ -1,0 +1,55 @@
+@startuml
+
+abstract class Bruker {
+    -navn: String
+    -id: String
+    -registreringsnummer: ArrayList<String>
+    -leier: ArrayList<Ordre>
+    -utleier: ArrayList<Parkeringsplass>
+    -kortnummer: long
+    {field} -adminStatus: boolean (false)
+
+    +get/set()
+    +get adminStatus()
+    void leggTilUtleie()
+    void fjernUtleie()
+    void leiUt()
+}
+Bruker --o Parkeringsplass
+Bruker --o Ordre
+
+class Administrator {
+    {field} -adminStatus: boolean (true)
+    +get()
+    void fjernPlasser()
+    void fjernParkeringsplass()
+    void fjernBruker()
+}
+Administrator --|> Bruker
+
+class Parkeringsplass{
+    id: String
+    lengdegrad: double
+    breddegrad: double
+    antallPlasser: int
+    antallHandicap: int
+    pris: double
+    beskrivelse: String
+    eierId: String
+    fra: LocalDateTime
+    til: LocalDateTime
+    + get/set()
+}
+
+class Ordre{
+    id: String
+    personid: String
+    parkeringsplassId: String
+    handicap: boolean
+    fra: LocalDateTime
+    til: LocalDateTime
+    eiernavn: String
+    + get/set()
+}
+
+@enduml

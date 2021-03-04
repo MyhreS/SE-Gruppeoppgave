@@ -1,0 +1,46 @@
+@startuml
+' kilde for table define https://forum.plantuml.net/331/database-modeling
+!define table(x) class x << (T,#FFAAAA) >>
+!define PRIMARY_KEY(x) * x
+hide methods
+hide stereotypes
+
+table(parkeringsplasser){
+    PRIMARY_KEY({field} VARCHAR(36): id)
+    Decimal: lengdegrad
+    Decimal: breddegrad
+    Integer: antallPlasser
+    Integer antallHandicap
+    Decimal: pris
+    {field} VARCHAR(255): beskrivelse
+    {field} VARCHAR(255): eierId
+    Integer: fra
+    Integer: til
+}
+
+table(personer){
+    PRIMARY_KEY({field} VARCHAR(36): id)
+    {field} VARCHAR(50): navn
+    Integer: kortnummer
+    Integer: erAdmin
+}
+
+table(registreringsnumre){
+    PRIMARY_KEY({field} VARCHAR(36) personId)
+    PRIMARY_KEY({field} VARCHAR(12) registreringsnummer)
+}
+
+table(ordre){
+    PRIMARY_KEY({field} VARCHAR(36): id)
+    {field} VARCHAR(36): personId
+    {field} VARCHAR(36): parkeringsplassId
+    Boolean: handicap
+    Integer: fra
+    Integer: til
+}
+
+personer --o registreringsnumre
+personer --o ordre
+ordre --o parkeringsplasser
+
+@enduml

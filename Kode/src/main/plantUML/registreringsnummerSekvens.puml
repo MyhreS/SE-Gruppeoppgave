@@ -1,0 +1,7 @@
+@startuml
+Bruker -> Nettside: skriver inn registreringsnummer
+Nettside -> Backend: Send informasjon
+Backend -> Backend: Formater registreringsnummer
+Backend -> Database: Lagre registreringsnummer
+Backend -> Nettside: Oppdater nettside
+@enduml

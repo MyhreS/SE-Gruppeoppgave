@@ -1,0 +1,8 @@
+@startuml
+Bruker -> Nettsiden: "Til brukersiden" knapp
+Nettsiden -> Backend: Send bruker-id
+Backend -> Database: Hent brukerens informasjon
+
+Database --> Backend: Brukerinformasjon
+Backend -> Nettsiden: Send til brukersiden
+@enduml

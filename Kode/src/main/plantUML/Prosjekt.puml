@@ -1,0 +1,43 @@
+@startuml
+
+abstract class Bruker {
+    navn: String
+    id: int
+    registreringsnummer: ArrayList<String>
+    leier: Map<Plasser, Integer>
+    utleier: ArrayList<Parkeringsplass>
+
+    +get/set()
+    void leggTilUtleie()
+    void fjernUtleie()
+    void leiUt()
+}
+Bruker --o Parkeringsplass
+Bruker --o Plasser
+
+class Administrator {
+    void fjernPlasser()
+    void fjernParkeringsplass()
+    void fjernBruker()
+}
+Administrator --|> Bruker
+
+class Parkeringsplass{
+    id: int
+    lengdegrad: double
+    breddegrad: double
+    plasser: ArrayList<Plasser>
+    + get/set()
+}
+
+class Plasser {
+    plasserUtleid: int
+    plasserMengde: int
+    pris: double
+    handicap: boolean
+    beskrivelse: String
+    +get/set()
+}
+Plasser o-- Parkeringsplass
+
+@enduml

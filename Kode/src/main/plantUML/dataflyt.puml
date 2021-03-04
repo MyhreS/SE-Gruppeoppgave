@@ -1,0 +1,15 @@
+@startuml
+:Bruker: as Bruker
+
+Bruker -Up-> (Nettleser): Bestill utleie\n av parkeringsplass
+(Nettleser) -> (Sjekk om kortet\n til brukeren er gyldig): Videresend\n forespørsel til backend
+(Sjekk om kortet\n til brukeren er gyldig) -down-> (Send feilmelding til Nettleser): Ugyldig
+(Sjekk om kortet\n til brukeren er gyldig) -up-> (Konstruer ordre): Gyldig
+(Send feilmelding til Nettleser) -down-> (Slutt)
+(Konstruer ordre) -right-> (Lagre i databasen)
+(Lagre i databasen) -down-> (Oppdater ordreliste)
+(Oppdater ordreliste) -down-> (Oppdater nettsiden\n Til brukeren)
+(Oppdater nettsiden\n Til brukeren) -down-> (Slutt)
+(Konstruer ordre) -left-> (Overfør penger fra\n bruker til selskapet og\n utleier av parkeringsplass)
+
+@enduml

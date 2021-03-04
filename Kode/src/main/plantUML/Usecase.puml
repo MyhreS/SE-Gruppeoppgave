@@ -1,0 +1,19 @@
+@startuml
+Admin as Admin
+Bruker as Bruker
+
+(Leie ut\n parkeringsplass) as (park)
+(Fjerne\n parkeringsplass) as (fPark)
+(Legge til plasser\n og parkeringsplasser) as (plass)
+(Fjerne plasser) as (fPlass)
+
+Admin --> (Fjerne brukere)
+Admin --> fPark
+Admin --> fPlass
+
+Bruker --> park
+Bruker --> plass
+Bruker --> fPark
+Bruker --> fPlass
+
+@enduml

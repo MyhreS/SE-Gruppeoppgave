@@ -1,0 +1,7 @@
+@startuml
+Bruker -> Nettside: Lei ut plass i parkeringsplass
+Nettside -> Backend: send forespørsel om leie
+Backend -> Banktjeneste: Forespørsel om bruk av kort
+Banktjeneste -> Backend: Forespørsel avvist
+Backend -> Nettside: Gi feilmelding om ugyldig kortbruk
+@enduml
